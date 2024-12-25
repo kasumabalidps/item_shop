@@ -66,7 +66,6 @@ AddEventHandler('onClientResourceStart', function(resourceName)
     end
 end)
 
--- Fungsi untuk membuat menu pembelian
 RegisterNetEvent('itemshop:openPurchaseMenu')
 AddEventHandler('itemshop:openPurchaseMenu', function(items)
     local options = {}
@@ -99,7 +98,6 @@ AddEventHandler('itemshop:openPurchaseMenu', function(items)
     lib.showContext('shop_purchase_menu')
 end)
 
--- Fungsi untuk membuat menu penjualan
 RegisterNetEvent('itemshop:openSellMenu')
 AddEventHandler('itemshop:openSellMenu', function()
     local playerItems = QBCore.Functions.GetPlayerData().items

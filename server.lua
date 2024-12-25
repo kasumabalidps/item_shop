@@ -1,11 +1,5 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
--- Event untuk membuka menu pembelian
--- RegisterNetEvent('itemshop:requestMenu', function()
---     local src = source
---     TriggerClientEvent('itemshop:openPurchaseMenu', src, Config.ItemsForSale)
--- end)
-
 RegisterNetEvent('itemshop:buyItem')
 AddEventHandler('itemshop:buyItem', function(itemName, itemPrice)
     local src = source

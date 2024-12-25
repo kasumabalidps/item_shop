@@ -1,21 +1,18 @@
 Config = {}
 
--- Konfigurasi NPC
 Config.NPC = {
     model = "a_m_m_business_01",
     coords = vector3(-715.72, -923.82, 18.0),
     heading = 90.0
 }
 
--- Konfigurasi Blip
 Config.Blip = {
-    sprite = 852,  -- ID sprite blip dari FiveM
-    color = 47,   -- Warna blip
-    scale = 0.7, -- Ukuran blip
-    label = "Toko Madura" -- Label yang muncul di map
+    sprite = 852,
+    color = 47,
+    scale = 0.7,
+    label = "Toko Madura"
 }
 
--- Daftar barang yang tersedia untuk dibeli
 Config.ItemsForSale = {
     { name = "tosti", price = 2, amount = 50 },
     { name = "water_bottle", price = 2, amount = 50 },
@@ -31,7 +28,6 @@ Config.ItemsForSale = {
     { name = "rolling_paper", price = 2, amount = 50 }
 }
 
--- Daftar barang yang bisa dijual (opsional, bisa disesuaikan)
 Config.ItemsForBuy = {
     tosti = 1,
     water_bottle = 1,

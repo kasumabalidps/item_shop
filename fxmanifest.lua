@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'yes'
 
 author 'github.com/kasumabalidps'
-description 'Item Shop with NPC Target'
+description 'Item Shop Resource'
 version '1.0.0'
 
 shared_scripts {
